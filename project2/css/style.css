@@ -1,0 +1,256 @@
+*,
+*:after,
+*:before{
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+}
+:active,
+:hover,
+:focus{
+    outline: 0 !important;
+    outline-offset: 0;
+}
+a,
+a:hover{
+    text-decoration: none;
+}
+a:hover{
+    color: purple !important;
+}
+ul,
+ol{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100%;
+    font-weight: 400;
+}
+/* custome scroling bar */
+::-webkit-scrollbar{
+    width: 1rem;
+}
+::-webkit-scrollbar-track{
+    background:whitesmoke;
+    
+}
+
+::-webkit-scrollbar-thumb{
+    background: rgb(44, 1, 1);
+    
+}
+.main-btn{
+    transition: transform 1s ease;
+    background-color: rgb(206, 10, 10);
+    color: antiquewhite;
+}
+.main-btn:hover{
+   
+    /* transform: scale(1.2);  */
+    background-color: transparent;
+    color: black;
+    border: none;
+  
+  
+}
+.navbar-toggler:focus{
+    outline: unset;
+    box-shadow: none;
+    border: none;
+}
+/* header design part star */
+.navgation-wrap{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    z-index: 1000;
+}
+.navgation-wrap .nav-item{
+    padding: 0 ,0.625rem;
+}
+
+/* header design part end */
+/* top bannare desing */
+
+ .top-banner{
+    width: 100%;
+    height: 500px;
+    padding: 9.25rem 0 18rem;
+    background: url(../images/bg/bg-1.jpg) no-repeat center;
+    background-size: cover ;
+
+
+   
+ }
+h1{
+    text-transform: capitalize;
+    font-weight: 500;
+
+}
+/* conntainer desing part */
+.counter-section{
+    background-color: red;
+    padding: 1.4rem 0;
+    
+}
+.counter-section p{
+    text-transform: capitalize;
+    color: white;
+
+}
+#ordernow{
+    background-color: red;
+}
+#ordernow:hover{
+    background-color: transparent;
+}
+/* about section design */
+.about-section{
+    background-color: white;
+}
+.about-section .card,
+.about-section .card img{
+    border-radius: 1rem;
+}
+.about-section .text-secondary{
+    padding-left: 2rem;
+    
+}
+.food-type ul li{
+    color: darkolivegreen;
+    padding-left: 1rem;
+    line-height: 2rem;
+    position: relative;
+}
+.top-banner2{
+    width: 100%;
+    padding: 1.25rem 0 3rem;
+}
+/* story section styling */
+#story-section{
+    padding-top: 100px;
+    width: 100%;
+    height: 28rem;
+    text-align: center;
+    background: url(../images/bg/bg-2.jpg) no-repeat center;
+background-size: cover;
+}
+#story-section h2{
+    color: red;
+}
+/* cadr design */
+.card{
+    border:none;
+    background-color: transparent;
+    border-radius: 1rem;
+}
+.card img{
+    border-radius: 1rem;
+    object-fit: cover;
+}
+.card span{
+    color: red;
+    font-size: 1.5rem;
+    display: block;
+    border-bottom: 2px solid wheat;
+   
+ 
+}
+.card span del{
+    color: gray;
+    opacity: 0.5;
+}
+.card button{
+    margin-top: 1rem;
+    font-size: larger;
+}
+.top-banner3{
+    width: 100%;
+    padding: 6.25rem 0 3rem;
+}
+#testimional{
+
+    position: relative;
+    height: 100%;
+    background-color: rgb(245, 15, 15);
+    margin-left: 5rem;
+    margin-right: 5rem;
+    
+    /* margin-top: 5rem; */
+    /* padding-top: 1rem; */
+    
+}
+#testimional h2{
+    /* padding-top: 1rem; */
+    color: white;
+}
+.carousel-item img{
+    border: 2px solid black;
+    border-radius: 1rem;
+}
+#faq span{
+    color: red;
+}
+#faq p{
+    color: black;
+    opacity: 0.5;
+}
+#faq h3{
+    color: brown;
+}
+.top-banner4{
+    
+    padding: 8rem 0 3rem;
+}
+.book-food{
+    background: url(../images/bg/bg-3.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0 70px;
+    padding: 4.30rem 0;
+
+
+}
+#icon i{
+    /* justify-content: space-between;
+     */
+     margin: 0 16px;
+     font-size: 2rem;
+}
+.style a{
+    font-size: 1.3rem;
+    font-weight: 900;
+    text-decoration: none;
+}
+.footer{
+    background-color: rgb(216, 7, 7);
+    
+
+}
+.footer a{
+    padding: 0 1rem;
+}
+
+.footer-link:hover{
+    color: white!important;
+    /* padding: 0 1rem; */
+
+}
+.you{
+    position: relative;
+    left: 2rem;
+}
+.em{
+    position: relative;
+    left: 2rem;
+}
+.ins{
+    position: relative;
+    left: 1rem;
+}
